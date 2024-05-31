@@ -29,7 +29,7 @@ function App() {
             <LanguageSelector onChange={setFromLanguage} type={SectionType.From} value={fromLanguage} />
             <TextArea
          
-              placeholder='Introducir texto...'
+              placeholder='Introducir texto... '
               value={fromText}
               onChange={setFromText}
               type={SectionType.From}
